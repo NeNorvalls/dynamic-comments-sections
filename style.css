@@ -1,0 +1,96 @@
+/* General container for centering content */
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Image section */
+#image img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Comments header */
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Input section */
+#inputSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#commentText {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+#addCommentButton {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+#addCommentButton:hover {
+  background-color: #0056b3;
+}
+
+#commentSection {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.comment {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+
+.text {
+  font-size: 16px;
+  margin-right: 10px;
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
